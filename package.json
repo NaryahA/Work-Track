@@ -1,0 +1,35 @@
+{
+  "name": "Work-Track",
+  "version": "1.0.0",
+  "description": "Content Management System accessed through the command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "est",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaryahA/Work-Track.git"
+  },
+  "keywords": [
+    "CMS",
+    "CLI",
+    "Node",
+    "MYSQL",
+    "mysql2",
+    "inquirer"
+  ],
+  "author": "Naryah Anthony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaryahA/Work-Track/issues"
+  },
+  "homepage": "https://github.com/NaryahA/Work-Track#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^9.0.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.2.5",
+    "pg": "^8.13.1"
+  }
+}
